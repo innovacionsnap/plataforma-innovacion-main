@@ -190,7 +190,7 @@ a:hover, a:visited, a:link, a:active {
 }
 
 #item_plataforma_innovacion_icon {
-	margin-top: 95px;
+	margin-top: 120px;
 	z-index: 100;
 }
 
@@ -203,7 +203,7 @@ a:hover, a:visited, a:link, a:active {
 }
 
 #item_retos_publicos_icon {
-	margin-top: 95px;
+	margin-top: 160px;
 }
 
 #item_revistadigital {
@@ -563,10 +563,10 @@ footer {
 	}
 	
 	#item_plataforma_innovacion_icon {
-		margin-top: 35px;
-		z-index: 0;
-		width: 100px;
-		height: 141px;
+		margin-top: 45px;
+		z-index: 100;
+		width: 125px;
+		height: 115px;
 	}
 	
 	#item_tramiton {
@@ -621,9 +621,9 @@ footer {
 	}
 	
 	#item_retos_publicos_icon {
-		margin-top: 25px;
-		width: 40px;
-		height: 42px;
+		margin-top: 40px;
+		width: 75px;
+		height: 24px;
 		z-index: 100;
 	}
 	
@@ -719,10 +719,10 @@ footer {
 	}
 	
 	#item_plataforma_innovacion_icon {
-		margin-top: 35px;
+		margin-top: 45px;
 		z-index: 100;
-		width: 100px;
-		height: 141px;
+		width: 125px;
+		height: 115px;
 	}
 	
 	#item_retos_publicos {
@@ -734,9 +734,9 @@ footer {
 	}
 	
 	#item_retos_publicos_icon {
-		margin-top: 55px;
-		width: 73px;
-		height: 77px;
+		margin-top: 80px;
+		width: 140px;
+		height: 44px;
 	}
 	
 	#item_revistadigital {

@@ -110,9 +110,9 @@ $wp_path_innovacion = '';
 		
 			<div class="item_container" id="item_indicadores">
 				<center>
-					<a href="http://innovacion.administracionpublica.gob.ec/main/indicadores.php"><img class="item_container_icon" id="item_indicadores_icon" src="img/icons/indicadores.png" alt="Planets"></a>
+					<a href="http://innovacionlab.gob.ec/indicadores"><img class="item_container_icon" id="item_indicadores_icon" src="img/icons/indicadores.png" alt="Planets"></a>
 					<br>
-					<a href="http://innovacion.administracionpublica.gob.ec/main/indicadores.php"><div class="index_titles index_titles_md">Indicadores</div></a>
+					<a href="http://innovacionlab.gob.ec/indicadores"><div class="index_titles index_titles_md">Indicadores</div></a>
 				</center>
 			</div>
 		
@@ -120,9 +120,9 @@ $wp_path_innovacion = '';
 			
 			<div class="item_container" id="item_datosabiertos">
 				<center>
-					<a href="http://innovacion.administracionpublica.gob.ec/catalogo/"><img class="item_container_icon" id="item_datosabiertos_icon" src="img/icons/datos_estructurados.png" alt="Planets"></a>
+					<a href="http://innovacionlab.gob.ec/catalogo"><img class="item_container_icon" id="item_datosabiertos_icon" src="img/icons/datos_estructurados.png" alt="Planets"></a>
 					<br>
-					<a href="http://innovacion.administracionpublica.gob.ec/catalogo/"><div class="index_titles index_titles_md">Datos Abiertos</div></a>
+					<a href="http://innovacionlab.gob.ec/catalogo"><div class="index_titles index_titles_md">Datos Abiertos</div></a>
 				</center>
 			</div>
 	
@@ -130,7 +130,7 @@ $wp_path_innovacion = '';
 			
 			<div class="item_container" id="item_plataforma_innovacion">
 				<center>
-					<a href="http://innovacion.administracionpublica.gob.ec"><img id="item_plataforma_innovacion_icon" src="img/logos/logo-final-plataforma_vertical.png" alt="Planets"></a>
+					<a href="http://innovacionlab.gob.ec"><img id="item_plataforma_innovacion_icon" src="img/logos/logo-final-plataforma_vertical.png" alt="Planets"></a>
 				</center>
 			</div>
 			
@@ -138,11 +138,11 @@ $wp_path_innovacion = '';
 			
 			<div class="item_container" id="item_retos_publicos">
 				<center>
-					<a href="http://innovacion.administracionpublica.gob.ec/retos/"><img class="item_container_icon" id="item_retos_publicos_icon" src="img/icons/retos_publicos.png" alt="Planets"></a>
+					<a href="https://www.tramiton.to"><img class="item_container_icon" id="item_retos_publicos_icon" src="img/logos/logo_tramiton_sombras.png" alt="Planets"></a>
 					<br>
-					<a href="http://innovacion.administracionpublica.gob.ec/retos/">
-						<div class="hidden-xs index_titles index_titles_md">Retos Públicos</div>
-						<div class="visible-xs index_titles index_titles_md">Retos<br>Públicos</div>
+					<a href="https://www.tramiton.to">
+						<div class="hidden-xs index_titles index_titles_md" style="color: #000000;">Tramitón</div>
+						<div class="visible-xs index_titles index_titles_md" style="color: #000000;">Tramitón</div>
 					</a>
 				</center>
 			</div>
@@ -151,9 +151,9 @@ $wp_path_innovacion = '';
 			
 			<div class="item_container" id="item_revistadigital">
 				<center>
-					<a href="http://innovacion.administracionpublica.gob.ec/revista"><img class="item_container_icon" id="item_revistadigital_icon" src="img/icons/revista_digital_grande.png" alt="Planets"></a>
+					<a href="http://innovacionlab.gob.ec/revista"><img class="item_container_icon" id="item_revistadigital_icon" src="img/icons/revista_digital_grande.png" alt="Planets"></a>
 					<br>
-					<a href="http://innovacion.administracionpublica.gob.ec/revista">
+					<a href="http://innovacionlab.gob.ec/revista">
 						<div class="hidden-xs index_titles index_titles_md">Revista Digital</div>
 						<div class="visible-xs index_titles index_titles_md">Revista<br>Digital</div>
 					</a>
@@ -162,11 +162,11 @@ $wp_path_innovacion = '';
 			
 			<!-- Item 236 -->
 			
-			<div class="item_container" id="item_tramiton">
+			<!-- <div class="item_container" id="item_tramiton">
 				<center>
 					<a href="https://www.tramiton.to"><img class="item_container_icon" id="item_tramiton_icon" src="img/logos/tramiton.png" alt="Planets"></a>
 				</center>
-			</div>			
+			</div> -->			
 	
 	</div>
 	</center>
