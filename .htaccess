@@ -1,3 +1,4 @@
 Options -MultiViews
 RewriteEngine On
 RewriteRule ^indicadores$ indicadores.php [L]
+RewriteRule ^home$ home.php [L]
