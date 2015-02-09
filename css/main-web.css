@@ -11,10 +11,11 @@
 }
 
 body {
-	background: url(../img/fondo_imagen_1.jpg);
+	/*background: url(../img/fondo_imagen_1.jpg);*/
 	font-family: 'Open Sans', sans-serif;
 	font-size: 13px;
 	color: #676a6c;
+	background-color: #708090;
 }
 
 a:hover, a:visited, a:link, a:active {

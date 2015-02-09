@@ -102,7 +102,7 @@ $wp_path_innovacion = '';
 			<!-- Item 114 -->
 			<div class="item_container" id="item_usuario">
 				<center>
-					<img class="item_container_icon" id="item_usuario_icon" src="img/icons/usuario.png" alt="Planets">
+					<!-- <img class="item_container_icon" id="item_usuario_icon" src="img/icons/usuario.png" alt="Planets"> -->
 				</center>
 			</div>
 			
