@@ -1,6 +1,6 @@
 <?php 
 
-define('WP_USE_THEMES', false);
+define('WP_USE_THEMES', true);
 require('http://innovacionlab.gob.ec/revista/wp-load.php'); 
 
 ?>
