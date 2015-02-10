@@ -1,3 +1,16 @@
+<?php
+
+///WP THEME// 
+
+define('WP_USE_THEMES', true);
+include('revista/wp-load.php'); 
+
+get_header();
+
+/////////////
+
+?>
+
 <?php 
 include_once('config.php');
 
@@ -174,3 +187,13 @@ $wp_path_innovacion = '';
 </div>
 
 <?php include_once('themes/footer.php'); ?>
+
+<?php 
+
+////WP THEME////
+
+get_footer(); 
+
+////////////////
+
+?>
