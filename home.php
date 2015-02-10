@@ -1,29 +1,31 @@
 <?php
 
-///WP THEME// 
+///WP THEME//
 
 define('WP_USE_THEMES', true);
 include('revista/wp-load.php'); 
 
+wp_head();
 get_header();
 
 /////////////
 
 ?>
 
-<?php 
+<?php
+
 include_once('config.php');
 
 //Principal
 $title = '';
 $metaDescription = '';
 $wp_path_innovacion = '';
- 
+
 ?>
 
 <?php include_once('themes/header.php'); ?>
 
-<header id="innovacion_header_page">
+<header id="innovacion_header_page" style="display: none;">
 	
 	<div class="header_1">		
 		<div class="row header_top_row">
@@ -186,7 +188,7 @@ $wp_path_innovacion = '';
   
 </div>
 
-<?php include_once('themes/footer.php'); ?>
+<?php //include_once('themes/footer.php'); ?>
 
 <?php 
 
