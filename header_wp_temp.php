@@ -1,6 +1,6 @@
 <?php 
 
-define('WP_USE_THEMES', false);
+define('WP_USE_THEMES', true);
 include('revista/wp-load.php'); 
 
 $recent_posts = wp_get_recent_posts(array(
