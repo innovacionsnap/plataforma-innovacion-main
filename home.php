@@ -5,7 +5,6 @@
 define('WP_USE_THEMES', true);
 include('revista/wp-load.php'); 
 
-wp_head();
 get_header();
 
 /////////////
