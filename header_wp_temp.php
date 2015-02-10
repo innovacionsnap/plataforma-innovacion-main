@@ -1,7 +1,13 @@
 <?php 
 
 define('WP_USE_THEMES', true);
-include('http://innovacionlab.gob.ec/revista/wp-load.php'); 
+include('revista/wp-load.php'); 
+
+?>
+
+<?php get_header(); ?>
+
+<?
 
 $recent_posts = wp_get_recent_posts(array(
 	'numberposts' => 10
@@ -15,3 +21,5 @@ foreach($recent_posts as $post) {
 echo '</ul>';
 
 ?>
+
+<?php get_footer(); ?>
