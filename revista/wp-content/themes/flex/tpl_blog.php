@@ -8,11 +8,23 @@ Template Name: Blog Posts
 
 <?php get_header(); ?>
 
-<?php query_posts('post_type=post&post_status=publish&posts_per_page=10&paged='. get_query_var('paged')); ?>
+		<?php
+			// TO SHOW THE PAGE CONTENTS
+			while ( have_posts() ) : the_post(); ?> <!--Because the_content() works only inside a WP Loop -->
+			    <div class="entry-content-page">
+			        <?php the_content(); ?> <!-- Page Content -->
+			    </div><!-- .entry-content-page -->
+			
+			<?php
+			endwhile; //resetting the page loop
+			wp_reset_query(); //resetting the page query
+		?>
 
 <div class="page-content" id="blog-container">
 	<div class="container">
-
+		
+		<?php query_posts('post_type=post&post_status=publish&posts_per_page=10&paged='. get_query_var('paged')); ?>
+		
 		<?php if (is_author() || is_archive() || is_day() || is_tag() || is_category() || is_month() || is_day() || is_year()): ?>
 
 			<h3 class="search-title">
@@ -38,20 +50,7 @@ Template Name: Blog Posts
 	
 		<?php get_template_part('/templates/blog/blog-layout');?>	
 
-	</div>
-	
-		<?php
-			// TO SHOW THE PAGE CONTENTS
-			while ( have_posts() ) : the_post(); ?> <!--Because the_content() works only inside a WP Loop -->
-			    <div class="entry-content-page">
-			        <?php the_content(); ?> <!-- Page Content -->
-			    </div><!-- .entry-content-page -->
-			
-			<?php
-			endwhile; //resetting the page loop
-			wp_reset_query(); //resetting the page query
-		?>	
-	
+	</div>	
 </div>
 
 <?php get_footer(); ?>
