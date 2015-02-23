@@ -1,4 +1,14 @@
+<?php
+
+/*
+Template Name: Blog Posts
+*/
+
+?>
+
 <?php get_header(); ?>
+
+<?php query_posts('post_type=post&post_status=publish&posts_per_page=10&paged='. get_query_var('paged')); ?>
 
 	<div class="page-content" id="blog-container">
 		<div class="container">
@@ -30,5 +40,9 @@
 
 		</div>
 	</div>
+
+<div class="navigation">
+	<span class="newer"><?php previous_posts_link(__('« Newer','example')) ?></span> <span class="older"><?php next_posts_link(__('Older »','example')) ?></span>
+</div><!-- /.navigation -->
 
 <?php get_footer(); ?>

@@ -3,7 +3,7 @@
 ///WP THEME//
 
 define('WP_USE_THEMES', true);
-include('revista/wp-load.php'); 
+include('revista/wp-load.php');
 
 get_header();
 
@@ -77,6 +77,8 @@ $wp_path_innovacion = '';
 	</div>
 	
 </header>
+
+<br>
 
 <div id="main_container">
 	
@@ -153,11 +155,6 @@ $wp_path_innovacion = '';
 			<div class="item_container" id="item_retos_publicos">
 				<center>
 					<a href="https://www.tramiton.to"><img class="item_container_icon" id="item_retos_publicos_icon" src="img/logos/logo_tramiton_sombras.png" alt="Planets"></a>
-					<br>
-					<a href="https://www.tramiton.to">
-						<div class="hidden-xs index_titles index_titles_md" style="color: #000000;">Tramitón</div>
-						<div class="visible-xs index_titles index_titles_md" style="color: #000000;">Tramitón</div>
-					</a>
 				</center>
 			</div>
 			
@@ -186,6 +183,8 @@ $wp_path_innovacion = '';
 	</center>
   
 </div>
+
+<br>
 
 <?php //include_once('themes/footer.php'); ?>
 
