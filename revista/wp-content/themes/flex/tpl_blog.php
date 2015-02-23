@@ -35,6 +35,8 @@ Template Name: Blog Posts
 			</h3>
 				
 		<?php endif; ?>
+	
+		<?php get_template_part('/templates/blog/blog-layout');?>
 		
 		<?php
 			// TO SHOW THE PAGE CONTENTS
@@ -46,9 +48,7 @@ Template Name: Blog Posts
 			<?php
 			endwhile; //resetting the page loop
 			wp_reset_query(); //resetting the page query
-		?>
-	
-		<?php get_template_part('/templates/blog/blog-layout');?>
+		?>		
 
 	</div>
 </div>
