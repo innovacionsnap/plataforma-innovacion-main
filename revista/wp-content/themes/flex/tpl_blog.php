@@ -8,11 +8,17 @@ Template Name: Blog Posts
 
 <?php get_header(); ?>
 
+<?php
+// TO SHOW THE PAGE CONTENTS
+while ( have_posts() ) : the_post(); ?> <!--Because the_content() works only inside a WP Loop -->
     <div class="entry-content-page">
         <?php the_content(); ?> <!-- Page Content -->
     </div><!-- .entry-content-page -->
 
-
+<?php
+endwhile; //resetting the page loop
+wp_reset_query(); //resetting the page query
+?>
 
 <?php query_posts('post_type=post&post_status=publish&posts_per_page=10&paged='. get_query_var('paged')); ?>
 
@@ -46,5 +52,9 @@ Template Name: Blog Posts
 
 		</div>
 	</div>
+
+<div class="navigation">
+	<span class="newer"><?php previous_posts_link(__('« Newer','example')) ?></span> <span class="older"><?php next_posts_link(__('Older »','example')) ?></span>
+</div><!-- /.navigation -->
 
 <?php get_footer(); ?>
