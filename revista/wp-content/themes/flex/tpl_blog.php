@@ -20,7 +20,7 @@ endwhile; //resetting the page loop
 wp_reset_query(); //resetting the page query
 ?>
 
-<?php query_posts('post_type=post&post_status=publish&posts_per_page=10&paged='. get_query_var('paged')); ?>
+pausa
 
 	<div class="page-content" id="blog-container">
 		<div class="container">
@@ -52,9 +52,5 @@ wp_reset_query(); //resetting the page query
 
 		</div>
 	</div>
-
-<div class="navigation">
-	<span class="newer"><?php previous_posts_link(__('« Newer','example')) ?></span> <span class="older"><?php next_posts_link(__('Older »','example')) ?></span>
-</div><!-- /.navigation -->
 
 <?php get_footer(); ?>
