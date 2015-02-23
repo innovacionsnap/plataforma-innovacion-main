@@ -20,7 +20,7 @@ endwhile; //resetting the page loop
 wp_reset_query(); //resetting the page query
 ?>
 
-pausa
+<?php query_posts('post_type=post&post_status=publish&posts_per_page=10&paged='. get_query_var('paged')); ?>
 
 	<div class="page-content" id="blog-container">
 		<div class="container">
