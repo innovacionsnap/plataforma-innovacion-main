@@ -42,6 +42,8 @@ Template Name: Blog Posts
 </div>
 
 <?php
+
+	wp_reset_query();
 	// TO SHOW THE PAGE CONTENTS
 	while ( have_posts() ) : the_post(); ?> <!--Because the_content() works only inside a WP Loop -->
 	    <div class="entry-content-page">
