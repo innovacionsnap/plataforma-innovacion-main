@@ -36,8 +36,10 @@ Template Name: Blog Posts
 				
 		<?php endif; ?>
 	
-		<?php get_template_part('/templates/blog/blog-layout');?>
-		
+		<?php get_template_part('/templates/blog/blog-layout');?>	
+
+	</div>
+	
 		<?php
 			// TO SHOW THE PAGE CONTENTS
 			while ( have_posts() ) : the_post(); ?> <!--Because the_content() works only inside a WP Loop -->
@@ -48,9 +50,8 @@ Template Name: Blog Posts
 			<?php
 			endwhile; //resetting the page loop
 			wp_reset_query(); //resetting the page query
-		?>		
-
-	</div>
+		?>	
+	
 </div>
 
 <?php get_footer(); ?>
