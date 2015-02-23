@@ -38,22 +38,23 @@ Template Name: Blog Posts
 	
 		<?php get_template_part('/templates/blog/blog-layout');?>	
 
+		<?php
+
+			// TO SHOW THE PAGE CONTENTS
+			wp_reset_query();
+			while ( have_posts() ) : the_post(); ?> <!--Because the_content() works only inside a WP Loop -->
+			    <div class="entry-content-page">
+			        <?php the_content(); ?> <!-- Page Content -->
+			    </div><!-- .entry-content-page -->
+			
+			<?php
+			endwhile; //resetting the page loop
+			wp_reset_query(); //resetting the page query
+			// END SHOW THE PAGE CONTENTS
+		?>
+
 	</div>	
 </div>
-
-<?php
-
-	wp_reset_query();
-	// TO SHOW THE PAGE CONTENTS
-	while ( have_posts() ) : the_post(); ?> <!--Because the_content() works only inside a WP Loop -->
-	    <div class="entry-content-page">
-	        <?php the_content(); ?> <!-- Page Content -->
-	    </div><!-- .entry-content-page -->
-	
-	<?php
-	endwhile; //resetting the page loop
-	wp_reset_query(); //resetting the page query
-?>
 
 
 <?php get_footer(); ?>
