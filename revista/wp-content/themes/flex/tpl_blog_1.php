@@ -1,7 +1,7 @@
 <?php
 
 /*
-Template Name: Blog Posts
+Template Name: Blog Posts SNAP
 */
 
 ?>
@@ -11,7 +11,16 @@ Template Name: Blog Posts
 <div class="page-content" id="blog-container">
 	<div class="container">
 		
-		<?php query_posts('post_type=post&post_status=publish&posts_per_page=10&paged='. get_query_var('paged')); ?>
+		<?php
+		 
+		//$category_name = 'boletines';
+		
+		echo do_shortcode('cat_blog_snap');
+		
+		$category_name = do_shortcode('cat_blog_snap');
+		query_posts('post_type=post&post_status=publish&category_name='.$category_name.'&posts_per_page=10&paged='. get_query_var('paged')); 
+		
+		?>
 		
 		<?php if (is_author() || is_archive() || is_day() || is_tag() || is_category() || is_month() || is_day() || is_year()): ?>
 
