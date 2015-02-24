@@ -182,7 +182,7 @@ footer{
 }
 
 .page-content{
-	background-color: <?php echo $theme_options['body-bgcolor']; ?>;
+	<!-- background-color: <?php echo $theme_options['body-bgcolor']; ?>; -->
 }
 
 
