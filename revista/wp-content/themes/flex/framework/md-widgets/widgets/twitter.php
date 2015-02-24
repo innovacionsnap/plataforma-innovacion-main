@@ -34,6 +34,7 @@ class MD_Widget_Twitter extends WP_Widget {
 		<ul>
 		<?php
 				$tweets = getTweets($instance['username'], $instance['tweets']);
+				var_dump($tweets);
 				foreach($tweets as $tweet):
 				 echo '<li>'.TwitterFilter($tweet['text']).'</li>';
 				endforeach;
@@ -81,7 +82,6 @@ class MD_Widget_Twitter extends WP_Widget {
 		<p>
 		<label for="<?php echo $this->get_field_id( 'username' ); ?>"><?php _e( 'Username:', MD_THEME_NAME ); ?></label> 
 		<input class="widefat" id="<?php echo $this->get_field_id( 'username' ); ?>" name="<?php echo $this->get_field_name( 'username' ); ?>" type="text" value="<?php echo esc_attr( $username ); ?>">
-		<?php echo $username . '-' . $title; ?>
 		</p>
 
 		<p>
