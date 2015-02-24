@@ -13,15 +13,7 @@ Template Name: Blog Posts SNAP
 		
 		<?php
 		 
-		//$category_name = 'boletines';
-		
-		extract(shortcode_atts(array(
-		    'cat_snap'				=> ''
-		), $atts));
-		
-		echo $cat_snap;
-		
-		$category_name = do_shortcode('cat_blog_snap');
+		$category_name = 'boletines';
 		query_posts('post_type=post&post_status=publish&category_name='.$category_name.'&posts_per_page=10&paged='. get_query_var('paged')); 
 		
 		?>
