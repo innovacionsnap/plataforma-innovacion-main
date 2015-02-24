@@ -1,4 +1,9 @@
-<?php get_header(); ?>
+<?php 
+
+$_POST['page-bgcolor'] = $theme_options['body-bgcolor'];
+get_header(); 
+
+?>
 
 	<?php
 		/*
@@ -12,10 +17,6 @@
 		<div class="container">
 			
 			<?php get_template_part('/templates/blog/blog-layout');?>
-			
-			<?php echo $theme_options['body-bgcolor']; ?>;
-			
-			holahola
 			
 		</div>
 	</div>
