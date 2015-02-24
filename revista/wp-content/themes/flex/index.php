@@ -1,5 +1,7 @@
 <?php get_header(); ?>
 
+<?php echo $theme_options['body-bgcolor']; ?>;
+
 	<div class="page-content" id="blog-container">
 		<div class="container">
 
