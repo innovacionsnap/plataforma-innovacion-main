@@ -13,7 +13,7 @@ Template Name: Blog Posts SNAP
 		
 		<?php
 		 
-		$category_name = 'boletines';
+		$category_name = 'Boletines';
 		query_posts('post_type=post&post_status=publish&category_name='.$category_name.'&posts_per_page=10&paged='. get_query_var('paged')); 
 		
 		?>
