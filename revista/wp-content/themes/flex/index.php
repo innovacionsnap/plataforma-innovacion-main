@@ -1,10 +1,12 @@
 <?php get_header(); ?>
 
-<?php echo $theme_options['body-bgcolor']; ?>;
-
 	<div class="page-content" id="blog-container">
 		<div class="container">
-
+			
+			<?php echo $theme_options['body-bgcolor']; ?>;
+			
+			holahola
+			
 			<?php if (is_author() || is_archive() || is_day() || is_tag() || is_category() || is_month() || is_day() || is_year()): ?>
 
 				<h3 class="search-title">
