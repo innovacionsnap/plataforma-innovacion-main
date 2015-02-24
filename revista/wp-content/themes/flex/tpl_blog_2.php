@@ -1,7 +1,7 @@
 <?php
 
 /*
-Template Name: Boletines SNAP
+Template Name: Articulos SNAP
 */
 
 ?>
@@ -13,7 +13,7 @@ Template Name: Boletines SNAP
 		
 		<?php
 		 
-		$category_name = 'Boletines';
+		$category_name = 'Articulos';
 		query_posts('post_type=post&post_status=publish&category_name='.$category_name.'&posts_per_page=10&paged='. get_query_var('paged')); 
 		
 		?>
