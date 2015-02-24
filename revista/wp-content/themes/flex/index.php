@@ -27,10 +27,6 @@
 			<?php endif; ?>
 		
 			<?php get_template_part('/templates/blog/blog-layout');?>
-			
-			<?php echo $theme_options['body-bgcolor']; ?>;
-			
-			holahola
 
 		</div>
 	</div>
