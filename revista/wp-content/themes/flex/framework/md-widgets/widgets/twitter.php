@@ -34,7 +34,7 @@ class MD_Widget_Twitter extends WP_Widget {
 		<ul>
 		<?php
 				$tweets = getTweets($instance['username'], $instance['tweets']);
-				var_dump($tweets);
+				//var_dump($tweets);
 				foreach($tweets as $tweet):
 				 echo '<li>'.TwitterFilter($tweet['text']).'</li>';
 				endforeach;
