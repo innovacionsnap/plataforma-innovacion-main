@@ -27,6 +27,14 @@ if ( ! isset( $content_width ) ) {
     $content_width = 1170;
 }
 
+/*-----------------------------------------------------------------------------------*/
+/*  the_excerpt(); Change default limit from 55 to 20.
+/*-----------------------------------------------------------------------------------*/
+
+function custom_excerpt_length( $length ) {
+	return 20;
+}
+add_filter( 'excerpt_length', 'custom_excerpt_length', 999 );
 
 /*-----------------------------------------------------------------------------------*/
 /*  Theme Support

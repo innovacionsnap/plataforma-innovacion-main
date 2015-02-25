@@ -1996,7 +1996,7 @@ footer .widget_search input[type="text"] {
 	position: relative;
 	z-index:0;
 	/*padding: 0 0 67.5% 0;*/
-	padding: 0 0 40% 0;
+	padding: 0 0 50% 0;
 }
 
 .md-video embed,
@@ -2004,7 +2004,7 @@ footer .widget_search input[type="text"] {
 .md-video video {
 	top: 0;
 	left: 0;
-	width: 65%;
+	width: 75%;
 	height: 100%;
 	position: absolute;
 	z-index:1;
