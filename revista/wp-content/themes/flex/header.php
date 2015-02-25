@@ -2,9 +2,12 @@
 <?php
 
 	$body_style = false;
-	$body_bgcolor = false;
+	
+	if(isset($body_bgcolor_home)) $body_bgcolor = $body_bgcolor_home; else $body_bgcolor = false;
+	
 	$body_bgimage = false;
 	$show_header = true;
+	
 	if(isset($post)){
 
 		$post_custom = get_post_custom($post->ID);

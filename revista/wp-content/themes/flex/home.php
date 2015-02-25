@@ -1,7 +1,7 @@
 <?php 
 
-$_POST['page-bgcolor'] = $theme_options['body-bgcolor'];
-get_header(); 
+$body_bgcolor_home = $theme_options['body-bgcolor'];
+get_header();
 
 ?>
 
