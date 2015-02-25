@@ -698,7 +698,7 @@ header #menu-mobile-trigger:after{
 /*-----------------------------------------------------------------------------------*/
 #blog-container,
 #post-container{
-	background: #FFFFFF;
+	/*background: #FFFFFF;*/
 }
 
 .md-blog .post{

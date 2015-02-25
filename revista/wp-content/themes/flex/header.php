@@ -3,7 +3,11 @@
 
 	$body_style = false;
 	
-	if(isset($body_bgcolor_home)) $body_bgcolor = $body_bgcolor_home; else $body_bgcolor = false;
+	if(isset($body_bgcolor_home)) {
+		$body_bgcolor = $body_bgcolor_home.';';
+		die();
+		exit(1); 
+	} else $body_bgcolor = false;
 	
 	$body_bgimage = false;
 	$show_header = true;
