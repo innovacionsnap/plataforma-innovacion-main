@@ -16,8 +16,8 @@
 	$page_options = get_post_custom($post->ID);
 ?>
 
-<center>
-<div align="center" class="post-video">
+
+<div class="post-video">
 	<?php 
 
 	switch ($video_source){
@@ -37,7 +37,7 @@
 	}
 	?>
 </div>
-</center>
+
 
 <div class="post-body">
 	
