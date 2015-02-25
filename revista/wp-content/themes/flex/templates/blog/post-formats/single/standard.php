@@ -3,7 +3,7 @@
 	$page_options = get_post_custom($post->ID);
 ?>
 
-<?php md_thumbnail($theme_options['blog-images-size'], $post->ID, false, false); ?>
+<?php //md_thumbnail($theme_options['blog-images-size'], $post->ID, false, false); ?>
 
 <div class="post-body">
 	
