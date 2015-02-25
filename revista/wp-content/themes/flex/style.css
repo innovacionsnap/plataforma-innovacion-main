@@ -6323,7 +6323,8 @@ footer .widget_md_widget_flickr .flickr_badge_image{
 /*-----------------------------------------------------------------------------------*/
 @media (min-width:992px){
 	header.scroll-resize .is-sticky .header-content{
-		line-height: 60px;
+		/*line-height: 60px;*/
+		line-height: 90px;
 	}
 
 	header.scroll-resize .is-sticky .header-content ul.menu > li.simple > ul,
