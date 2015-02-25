@@ -1,6 +1,5 @@
 <?php 
 
-$body_bgcolor_home = $theme_options['body-bgcolor'];
 get_header();
 
 ?>
