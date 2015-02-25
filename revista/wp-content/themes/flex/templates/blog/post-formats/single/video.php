@@ -17,7 +17,7 @@
 ?>
 
 <center>
-<div class="post-video">
+<div align="center" class="post-video">
 	<?php 
 
 	switch ($video_source){
