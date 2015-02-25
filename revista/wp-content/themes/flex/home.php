@@ -1,12 +1,17 @@
+<?php 
 
-<?php get_header(); ?>
+global $bg_home_posts;
+$bg_home_posts = $theme_options['body-bgcolor'];
+get_header(); 
+
+?>
 
 	<?php
-		/*
+		
 		if(get_post_field('post_content', get_option('page_for_posts'))){
 			echo apply_filters('the_content', get_post_field('post_content', get_option('page_for_posts')));
 		}
-		*/
+		
 	?>
 	
 	<div class="page-content" id="blog-container">

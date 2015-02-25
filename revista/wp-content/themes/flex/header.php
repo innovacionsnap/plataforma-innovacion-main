@@ -1,4 +1,7 @@
-<?php global $theme_options; ?>
+<?php 
+global $theme_options;
+global $bg_home_posts; 
+?>
 <?php
 
 	$body_style = false;
@@ -6,8 +9,9 @@
 	$body_bgimage = false;
 	$show_header = true;
 	
-	$body_style = ' style="'.$theme_options['body-bgcolor'].';'.'"';
-	
+	if(isset($bg_home_posts)) {
+		$body_style = ' style="'.$theme_options['body-bgcolor'].';'.'"';
+	} else  
 	if(isset($post)){
 
 		$post_custom = get_post_custom($post->ID);
