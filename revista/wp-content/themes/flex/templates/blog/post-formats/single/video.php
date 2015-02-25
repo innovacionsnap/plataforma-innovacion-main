@@ -16,6 +16,7 @@
 	$page_options = get_post_custom($post->ID);
 ?>
 
+<center>
 <div class="post-video">
 	<?php 
 
@@ -36,6 +37,7 @@
 	}
 	?>
 </div>
+</center>
 
 <div class="post-body">
 	

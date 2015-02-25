@@ -802,7 +802,7 @@ header #menu-mobile-trigger:after{
 }
 
 .md-blog .post .post-share{
-	padding: 40px 0;
+	padding: 25px 0;
 	border-top: 1px solid #e5e5e5;
 }
 
@@ -2003,8 +2003,8 @@ footer .widget_search input[type="text"] {
 .md-video video {
 	top: 0;
 	left: 0;
-	width: 100%;
-	height: 100%;
+	width: 65%;
+	height: 60%;
 	position: absolute;
 	z-index:1;
 	border: none;

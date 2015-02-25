@@ -55,7 +55,7 @@
         <?php endif; ?>
         
     <?php else: ?>
-            <h4 class="comment-title"><?php _e('Enviar un Comentario:', MD_THEME_NAME); ?></h4>
+            <b><h4 class="comment-title"><?php _e('Enviar un Comentario:', MD_THEME_NAME); ?></h4></b>
     <?php endif; ?>
 
         
