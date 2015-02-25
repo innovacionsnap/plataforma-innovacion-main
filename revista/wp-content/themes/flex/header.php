@@ -2,12 +2,11 @@
 <?php
 
 	$body_style = false;
-	
-	$body_bgcolor = $theme_options['body-bgcolor'];
-	//$body_bgcolor = false;
-	
+	$body_bgcolor = false;
 	$body_bgimage = false;
 	$show_header = true;
+	
+	$body_style = ' style="'.$theme_options['body-bgcolor'].';'.'"';
 	
 	if(isset($post)){
 
