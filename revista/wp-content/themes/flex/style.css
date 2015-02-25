@@ -950,8 +950,10 @@ header #menu-mobile-trigger:after{
 }
 
 .comment-respond{
-    padding-top: 40px;
-    margin-top: 40px;
+    /*padding-top: 40px;
+    margin-top: 40px;*/
+   padding-top: 0px;
+    margin-top: 0px;
 }
 
 .comment-respond h3{
@@ -1930,7 +1932,7 @@ footer .widget_search input[type="text"] {
 /*	Shortcode: Divider
 /*-----------------------------------------------------------------------------------*/
 .md-divider{
-	margin: 60px 0;
+	margin: 35px 0;
 	width: 100%;
 	line-height: 1em;
 }
@@ -3636,7 +3638,8 @@ footer .widget_search input[type="text"] {
 }
 
 .md-social-share-classic{
-	margin-bottom: 30px;
+	/*margin-bottom: 30px;*/
+	margin-bottom: 0px;
 	width: 100%;
 }
 
