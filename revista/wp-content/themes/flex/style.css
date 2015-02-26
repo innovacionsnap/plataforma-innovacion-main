@@ -79,6 +79,14 @@ a{
 	border: none;
 }
 
+/*-----------------------------------------------------------------------------------*/
+/*	Snap
+/*-----------------------------------------------------------------------------------*/
+
+.single_post_snap_video {
+	max-width: 50%;
+	max-height: 50%;
+}
 
 /*-----------------------------------------------------------------------------------*/
 /*	Typography
@@ -1995,8 +2003,7 @@ footer .widget_search input[type="text"] {
 .md-video{
 	position: relative;
 	z-index:0;
-	/*padding: 0 0 67.5% 0;*/
-	padding: 0 0 50% 0;
+	padding: 0 0 67.5% 0;
 }
 
 .md-video embed,
@@ -2004,7 +2011,7 @@ footer .widget_search input[type="text"] {
 .md-video video {
 	top: 0;
 	left: 0;
-	width: 75%;
+	width: 100%;
 	height: 100%;
 	position: absolute;
 	z-index:1;

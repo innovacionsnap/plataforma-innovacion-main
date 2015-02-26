@@ -16,26 +16,27 @@
 	$page_options = get_post_custom($post->ID);
 ?>
 
-
-<div class="post-video">
-	<?php 
-
-	switch ($video_source){
-
-		case 'self':
-			echo do_shortcode('[md_video_hosted video_poster_src="'.$video_poster.'" video_mp4="'.$video_mp4.'" video_webm="'.$video_webm.'" video_ogv="'.$video_ogv.'" controls="yes"]' );
-		break;
-
-		case 'youtube':
-			echo do_shortcode('[md_video type="youtube" video_id="'.$video_youtube.'"]' );
-		break;
-
-		case 'vimeo':
-			echo do_shortcode('[md_video type="vimeo" video_id="'.$video_vimeo.'"]' );
-		break;
-
-	}
-	?>
+<div class="single_post_snap_video">
+	<div class="post-video">
+		<?php 
+	
+		switch ($video_source){
+	
+			case 'self':
+				echo do_shortcode('[md_video_hosted video_poster_src="'.$video_poster.'" video_mp4="'.$video_mp4.'" video_webm="'.$video_webm.'" video_ogv="'.$video_ogv.'" controls="yes"]' );
+			break;
+	
+			case 'youtube':
+				echo do_shortcode('[md_video type="youtube" video_id="'.$video_youtube.'"]' );
+			break;
+	
+			case 'vimeo':
+				echo do_shortcode('[md_video type="vimeo" video_id="'.$video_vimeo.'"]' );
+			break;
+	
+		}
+		?>
+	</div>
 </div>
 
 
