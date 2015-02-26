@@ -207,7 +207,7 @@ msgid "Results for:"
 msgstr ""
 
 #: ../searchform.php:4
-msgid "To search type and hit enter..."
+msgid "Buscar Contenido..."
 msgstr ""
 
 #: ../framework/custom-posts/lib/clients/config.php:13
