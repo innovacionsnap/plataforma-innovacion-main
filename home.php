@@ -197,3 +197,8 @@ get_footer();
 ////////////////
 
 ?>
+
+<!--Start Cookie Script-->
+<script type="text/javascript" charset="UTF-8" src="http://chs02.cookie-script.com/s/1e625a8c8e4acaa3ade72b74faec8b4d.js"></script>
+<!--End Cookie Script-->
+
