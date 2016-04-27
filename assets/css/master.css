@@ -1,0 +1,98 @@
+body{
+  background-image: url("../img/fondo.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.titulo{
+  background-color: rgba(0,0,0,0.4);
+  color: white;
+  position: absolute;
+  top:-3px;
+  left: -3px;
+  width: 100%;
+  height: 50px;
+  margin-top: 0px;
+  padding-top: 15px;
+
+  font-family: Helvetica, Arial, sans-serif;
+  text-align: center;
+  font-size: 2.1em;
+}
+
+.menu-pias{
+  /*background-color: blue;*/
+  width: 50%;
+  margin: auto;
+  margin-top: 60px;
+  margin-bottom: 10px;
+}
+
+.menu-item img{
+  -ms-transform: rotate(45deg);
+  -webkit-transform: rotate(45deg);
+  transform: rotate(45deg);
+}
+
+/*.col-total{
+  position:absolute;
+  top:0;
+  bottom:0;
+  width:100%;
+}
+
+.fila-2{
+  vertical-align: top;
+  position:relative;
+}
+
+.frame{
+  white-space: nowrap;
+  text-align: center; margin: 1em 0;
+}
+
+.helper {
+    display: inline-block;
+    height: 100%;
+    vertical-align: middle;
+}
+
+.helper img{
+  vertical-align: middle;
+}*/
+
+.fila-0{
+  position: relative;
+  top: 105px;
+}
+.fila-1{
+  position: relative;
+  top: 28px;
+}
+.fila-2{
+  position: relative;
+  top: 47px;
+}
+
+.fila-3{
+  position: relative;
+  top: -95px;
+}
+
+.fila-4{
+  position: relative;
+  top: -160px;
+}
+
+
+.fila-5{
+  position: relative;
+  top: -261px;
+}
+
+.p-r-0{
+  padding-right: 0px !important;
+}
+
+.p-l-0{
+  padding-left: 0px !important;
+}
