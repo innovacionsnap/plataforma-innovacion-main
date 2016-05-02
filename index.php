@@ -30,7 +30,7 @@ $wp_path_innovacion = '';
 		<div class="row header_top_row">
 		  <div class="col-sm-6 col-xs-12 header_custom_padding_left_1">
 		  	<div class="header_text header_text_left">
-				Plataforma de Innovacion
+				Plataforma de Innovacion 2
 	  		</div>
 		  </div>
 		  <div class="col-sm-6 col-xs-12 header_custom_padding_right_1">
