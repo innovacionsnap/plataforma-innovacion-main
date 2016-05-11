@@ -15,42 +15,6 @@ $wp_path_innovacion = '';
 
 <header id="innovacion_header_page">
 	
-	<div class="header_1">		
-		<div class="row">
-		  <br>
-		  <div class="col-sm-6 col-xs-12 header_custom_padding_left_1">
-		  	<div class="header_text header_text_left">
-				Plataforma de Innovacion
-	  		</div>
-		  </div>
-		  <div class="col-sm-6 col-xs-12 header_custom_padding_right_1">
-		  	<div id="header_login_top_access" class="header_text header_text_right">
-				Jorge Pantoja
-				<span class="caret"></span>
-				<img class="circular" src="img/users/jorge-pantoja.jpg" />
-	  		</div>
-		  </div>
-		</div>
-	</div>
-	
-	<div id="small_login_user">
-		<form role="form">
-		  <div class="form-group">
-		    <label for="exampleInputEmail1">Usuario:</label>
-		    <input type="email" class="form-control input-sm" id="exampleInputEmail1" placeholder="Email">
-		  </div>
-		  <div class="form-group">
-		    <label for="exampleInputPassword1">Contraseña:</label>
-		    <input type="password" class="form-control input-sm" id="exampleInputPassword1" placeholder="Contraseña">
-		  </div>
-		  <button type="submit" class="btn btn-primary btn-xs">Login</button>
-		</form>
-		<hr>
-		<a class="text_info_login">Mi Cuenta</a><br>
-		<a class="text_info_login">Olvide mi Contraseña</a>
-	</div>
-	
-</header>
 
 <div id="main_container">
 	
@@ -73,7 +37,7 @@ $wp_path_innovacion = '';
 						Lorem Ipsum has been the industry's standard dummy text ever since the 1500.
 					</p>
 					<p>
-						<a href="http://localhost/snapinnovacion/main/indicadores_detalle.php" class="btn btn-primary btn-xs" role="button">Ver Descripción Completa</a>&nbsp;&nbsp;
+						<a href="indicadores_detalle.php" class="btn btn-primary btn-xs" role="button">Ver Descripción Completa</a>&nbsp;&nbsp;
 						<i class="fa fa-comment"></i>&nbsp;<a href="http://localhost/snapinnovacion/main/indicadores_detalle.php#disqus_thread" data-disqus-identifier="innovacion_graf_1"></a>
 					</p>
 				</div>
